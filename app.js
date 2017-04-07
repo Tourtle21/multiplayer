@@ -44,5 +44,5 @@ io.on('connection', function (socket) {
 setInterval(function () {
   tagged = false;
 }, 3000);
-server.listen(8080);
+server.listen(process.env.PORT || 8080);
 console.log("Multiplayer app listening on port 8080");
