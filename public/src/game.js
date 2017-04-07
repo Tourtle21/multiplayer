@@ -1,7 +1,7 @@
 require(['socket.io/socket.io.js']);
 var players = [];
 
-var socket = io.connect('http://localhost:8080');
+var socket = io.connect('https://still-stream-68806.herokuapp.com/');
 
 var UiPlayers = document.getElementById("players");
 var selfId, player;
